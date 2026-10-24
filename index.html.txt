@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Mini App</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<h1>Welcome!</h1>
+<p>My Telegram Mini App is working.</p>
+<script>
+Telegram.WebApp.ready();
+Telegram.WebApp.expand();
+</script>
+</body>
+</html>
